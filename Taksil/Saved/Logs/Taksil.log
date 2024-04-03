@@ -5689,3 +5689,31 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.03-21.58.24:421][407]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
 [2024.04.03-21.58.26:822][407]LogExit: Editor shut down
 [2024.04.03-21.58.28:355][407]LogExit: Transaction tracking system shut down
+[2024.04.03-21.59.19:486][407]LogExit: Object subsystem successfully closed.
+[2024.04.03-21.59.20:796][407]LogShaderCompilers: Display: ================================================
+[2024.04.03-21.59.20:796][407]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.03-21.59.20:796][407]LogShaderCompilers: Display: Total job queries 53, among them cache hits 21 (39.62%)
+[2024.04.03-21.59.20:796][407]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 29 distinct outputs (90.62%)
+[2024.04.03-21.59.20:796][407]LogShaderCompilers: Display: RAM used: 705.61 KiB of 819.20 MiB budget. Usage: 0.08%
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Job execution time: average 2.64 s, max 2.64 s
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Job life time (pending + execution): average 2.71 s, max 2.71
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.71 s
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Average processing rate: 0.74 jobs/sec
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Total thread time: 0.643 s
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Total thread preprocess time: 0.177 s
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Percentage time preprocessing: 27.52%
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Effective parallelization: 0.24 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.04.03-21.59.20:836][407]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.04.03-21.59.20:907][407]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 52.09% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.04.03-21.59.20:907][407]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 47.91% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.04.03-21.59.20:907][407]LogShaderCompilers: Display: ================================================
+[2024.04.03-21.59.21:119][407]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.04.03-21.59.26:772][407]LogVirtualization: UE::Virtualization was shutdown
